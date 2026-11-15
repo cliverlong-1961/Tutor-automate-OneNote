@@ -1,0 +1,27 @@
+/* Optional extra styling for the rendered lesson summary. */
+.lesson-markdown {
+  color: #25233b;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.lesson-markdown h1, .lesson-markdown h2, .lesson-markdown h3 {
+  color: #29235f;
+  line-height: 1.3;
+  margin: 1.15em 0 0.55em;
+}
+.lesson-markdown h1 { font-size: 1.65em; }
+.lesson-markdown h2 { font-size: 1.35em; border-bottom: 1px solid #e2deef; padding-bottom: 0.25em; }
+.lesson-markdown h3 { font-size: 1.15em; }
+.lesson-markdown p { margin: 0.65em 0; }
+.lesson-markdown ul, .lesson-markdown ol { padding-left: 1.6em; }
+.lesson-markdown li { margin: 0.25em 0; }
+.lesson-markdown blockquote { border-left: 4px solid #9a8bd8; margin: 1em 0; padding: 0.25em 1em; background: #f7f5fc; }
+.lesson-markdown code { background: #f1eff8; padding: 0.12em 0.3em; border-radius: 4px; }
+.lesson-markdown pre { background: #f5f4f8; padding: 12px; border-radius: 6px; overflow-x: auto; }
+.lesson-markdown-table-wrap { overflow-x: auto; }
+.lesson-markdown table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+.lesson-markdown th, .lesson-markdown td { border: 1px solid #d9d5e5; padding: 8px 10px; text-align: left; }
+.lesson-markdown th { background: #f1eff8; }
+.lesson-markdown .katex-display { overflow-x: auto; overflow-y: hidden; padding: 0.25em 0; }
