@@ -35,7 +35,7 @@ jobs:
 
       - name: Build application
         run: npm run build
-	env:
+        env:
           VITE_BASE_PATH: /Tutor-automate-OneNote/
 
       - name: Configure GitHub Pages
